@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnScheduleService"
+        android:text="@string/start_schedule_service"
+        android:onClick="startService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnStartNormalService"
+        android:onClick="startService"
+        android:text="@string/start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnStopNormalService"
+        android:onClick="startService"
+        android:text="@string/stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/btnStartIntentService"
+    android:onClick="startService"
+    android:text="@string/start_intent_service"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnBindService"
+        android:onClick="startService"
+        android:text="@string/bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnUnBindService"
+        android:onClick="startService"
+        android:text="@string/unbind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
